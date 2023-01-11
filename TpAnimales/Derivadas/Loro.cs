@@ -10,12 +10,16 @@ namespace TpAnimales.Derivadas
     public class Loro : Animal
     {
         public Loro() { }
-        public Loro(int edad, float altura, float peso) : base(edad, altura, peso)
+        public Loro(int edad, float altura, float peso,string tamanioPico) : base(edad, altura, peso)
         {
+            TamanioPico = tamanioPico;
         }
+
         public override string ImprimirComida()
         {
             return"Semillas";
         }
+        public string TamanioPico { get; set; }
+
     }
 }

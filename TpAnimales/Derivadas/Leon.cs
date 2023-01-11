@@ -10,13 +10,15 @@ namespace TpAnimales.Derivadas
     public class Leon : Animal
     {
         public Leon() { }
-        public Leon(int edad, float altura, float peso) : base(edad, altura, peso)
+        public Leon(int edad, float altura, float peso,string melena) : base(edad, altura, peso)
         {
+              Melena= melena;
         }
         public override string ImprimirComida()
         {
 
            return"Carnes";
         }
+        public string Melena { get; set; }
     }
 }

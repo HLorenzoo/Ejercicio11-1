@@ -20,22 +20,22 @@ namespace AnimalesInterfaz
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Loro loro = new Loro(10,45,22);
-            MessageBox.Show("El loro, su edad:"+loro.Edad+"\naltura : " + loro.Altura + "\nPeso : " + loro.Peso+ "\n\n\tVirtual Loro: \n" + loro.ImprimirComida());
+            Loro loro = new Loro(10,45,22,"Pico Grande");
+            MessageBox.Show("El loro, su edad:"+loro.Edad+"\naltura : " + loro.Altura + "\nPeso : " + loro.Peso+ "\nTamaño de Pico : " + loro.TamanioPico + "\n\n\tComida Loro: \n" + loro.ImprimirComida());
             
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Leon leon = new Leon(25, 30, 23);
-            MessageBox.Show("El leon, su edad:" + leon.Edad + "\naltura : " + leon.Altura + "\nPeso : " + leon.Peso + "\n\n\tVirtual leon: \n" + leon.ImprimirComida());
+            Leon leon = new Leon(25, 30, 23,"Voluminosa");
+            MessageBox.Show("El leon, su edad:" + leon.Edad + "\naltura : " + leon.Altura + "\nMelena : " + leon.Melena + "\nPeso : " + leon.Peso + "\n\n\tComida leon: \n" + leon.ImprimirComida());
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Conejo conejo = new Conejo(25, 30, 23);
-            MessageBox.Show("El Conejo, su edad:" + conejo.Edad + "\naltura : " + conejo.Altura + "\nPeso : " + conejo.Peso + "\n\n\tVirtual Conejo: \n" + conejo.ImprimirComida());
+            Conejo conejo = new Conejo(25, 30, 23,"Puntiagudas");
+            MessageBox.Show("El Conejo, su edad:" + conejo.Edad + "\naltura : " + conejo.Altura + "\nPeso : " + conejo.Peso + "\nOrejas : " + conejo.Orejas + "\n\n\tComida Conejo: \n" + conejo.ImprimirComida());
         }
     }
 }

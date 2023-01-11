@@ -10,12 +10,14 @@ namespace TpAnimales.Derivadas
     public class Conejo : Animal
     {
         public Conejo() { }
-        public Conejo(int edad, float altura, float peso) : base(edad, altura, peso)
+        public Conejo(int edad, float altura, float peso,string orejas) : base(edad, altura, peso)
         {
+            Orejas= orejas;
         }
         public override string ImprimirComida()
         {
             return "Zanahorias";
         }
+        public string Orejas { get; set; }
     }
 }
