@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio11-1", "Ejercicio1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppGrafica", "AppGrafica\AppGrafica.csproj", "{5133ABE9-F040-4B7B-9351-1D4AF1890372}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpAnimales", "TpAnimales\TpAnimales.csproj", "{D4F26BEF-7EAA-4DD7-96C1-5D8FB2F0901B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalesInterfaz", "AnimalesInterfaz\AnimalesInterfaz.csproj", "{AE489CF7-5572-4BF6-91DF-4AF186F69A3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{5133ABE9-F040-4B7B-9351-1D4AF1890372}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5133ABE9-F040-4B7B-9351-1D4AF1890372}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5133ABE9-F040-4B7B-9351-1D4AF1890372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F26BEF-7EAA-4DD7-96C1-5D8FB2F0901B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F26BEF-7EAA-4DD7-96C1-5D8FB2F0901B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F26BEF-7EAA-4DD7-96C1-5D8FB2F0901B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F26BEF-7EAA-4DD7-96C1-5D8FB2F0901B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE489CF7-5572-4BF6-91DF-4AF186F69A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE489CF7-5572-4BF6-91DF-4AF186F69A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE489CF7-5572-4BF6-91DF-4AF186F69A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE489CF7-5572-4BF6-91DF-4AF186F69A3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

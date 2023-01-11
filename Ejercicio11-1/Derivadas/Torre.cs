@@ -12,7 +12,7 @@ namespace Ejercicio11_1.Derivadas
           
         public override string Mover()
         {
-            return "Mover en linea recta";
+            return "Mover en linea rectaaaa";
         }
     }
 }
